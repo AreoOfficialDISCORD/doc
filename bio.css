@@ -13,18 +13,6 @@ body {
     right: -250px;
     width: 250px;
     height: 100%;
-    background-color: rgba(17, 17, 17, 0.8);
-    padding: 20px;
-    box-sizing: border-box;
-    transition: right 0.3s ease;
-}
-
-.nav-links {
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 250px;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     box-sizing: border-box;
@@ -78,24 +66,27 @@ body {
 a {
     color: #0099ff;
     text-decoration: none;
+    transition: transform 0.3s ease;
 }
 
 a:hover {
     color: #55aaff;
+    transform: scale(1.1);
 }
 
 .nav-links ul li a {
-    color: #0099ff;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-links ul li a:hover {
-    color: #55aaff;
+    color: #9de0b3;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
-
 
 .content {
     font-size: 18px;
